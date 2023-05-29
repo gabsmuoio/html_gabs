@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro"><img src="assets/img/palmeiras.png" alt="logo_palmeiras" height="45px">
+    </a></li>
+        </h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#grid-one">Melhores</a></li>
+                <li><a href="#gallery">Fotos</a></li>
+                <li><a href="#notas">Notas</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <h2>PALMEIRAS VENCE GALO COM FACILIDADE</h2>
+            <p>
+                Com uma apresentação de gala do trio de ataque, o Palmeiras fez 3x0 em pleno Mineirão e dominou o clube mineiro. Dudu (2 vezes) e Rony fizeram os gols do time de Abel Ferreira, que continua na caça do Botafogo (agora a diferença caiu para 1pt apenas).
+            </p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/dudu.png" alt="Dudu e Rony comemorando gol">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="resumo" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Resumo do jogo</h2>
+            <p>Após suportar a pressão do Atlético-MG nos 10 minutos iniciais, o Palmeiras começou a controlar a partida e logo aos 15, fez o primeiro gol após boa jogada individual de Arthur, que acho Rony livre para apenas tirar de Everson.</p>
+            <p>Com o gol, o time mineiro perdeu um pouco o controle e começou a tomar cartões em excesso e motivando a equipe paulista. Dudu acertou a trave no final da primeira etapa.</p>
+            <p>Logo no inicio da segunda etapa, Dudu arrancou pela esquerda, deixou 3 para trás e fez um golaço!!! Zaracho foi expulso aos 15min e o Palmeiras só controlou. Aos 30min, Dudu novamente após jogada de Mayke, fechou o placar com extrema tranquilidade.</p>
+        </div>
+
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">TOP 3 JOGADORES</h2>
+            <p class="grid-description">
+                Melhores jogadores da partida.
+            </p>
+            <div class="grid">
+                <article>
+                    <h3>Dudu</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum inventore voluptas eligendi, molestias perspiciatis optio nostrum earum a dolore, porro possimus consectetur suscipit eos non deleniti ipsum nulla, facilis quod?</p>
+                </article>
+                <article>
+                    <h3>Arthur</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum inventore voluptas eligendi, molestias perspiciatis optio nostrum earum a dolore, porro possimus consectetur suscipit eos non deleniti ipsum nulla, facilis quod?</p>
+                </article>
+                <article>
+                    <h3>Rony</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum inventore voluptas eligendi, molestias perspiciatis optio nostrum earum a dolore, porro possimus consectetur suscipit eos non deleniti ipsum nulla, facilis quod?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">FOTOS</h2>
+            <p class="grid-description">
+                Fotos da partida.
+            </p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/rony.png" alt="imagens dos jogadores" />
+                </div>
+                <div class="gallery-img">
+                <img src="assets/img/elenco.png" alt="imagens dos jogadores" />
+                </div>
+                <div class="gallery-img">
+                <img src="assets/img/artur.png" alt="imagens dos jogadores" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="notas" class="main-bg section">
+        <div class="main-content top3-content">
+          <h2>NOTAS</h2>
+    
+          <div class="responsive-table">
+            <table>
+              <caption>Notas dos jogadores</caption>
+    
+              <thead>
+                <tr>
+                  <th>Posição</th>
+                  <th>Jogador</th>
+                  <th>Nota</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td>GOL</td>
+                  <td>Weverton</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>LD</td>
+                  <td>Marcos Rocha</td>
+                  <td>8.2</td>
+                </tr>
+                <tr>
+                  <td>VOL</td>
+                  <td>Zé Rafael</td>
+                  <td>8.5</td>
+                </tr>
+                <tr>
+                    <td>MEI</td>
+                    <td>Raphael Veiga</td>
+                    <td>7.8</td>
+                </tr>
+                <tr>
+                    <td>ATA</td>
+                    <td>Dudu</td>
+                    <td>9</td>
+                </tr>
+              </tbody>
+    
+              <tfoot>
+                <tr>
+                  <td colspan="5">SOCIEDADE ESPORTIVA PALMEIRAS</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <h2>PALMEIRAS VENCE GALO COM FACILIDADE</h2>
+            <p>
+                Com uma apresentação de gala do trio de ataque, o Palmeiras fez 3x0 em pleno Mineirão e dominou o clube mineiro. Dudu (2 vezes) e Rony fizeram os gols do time de Abel Ferreira, que continua na caça do Botafogo (agora a diferença caiu para 1pt apenas).
+            </p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/dudu.png" alt="Dudu e Rony comemorando gol">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contate-nos</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Primeiro nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email...">
+                    </div>
+                    <div class="form-group full-widht">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite o que deseja"></textarea>
+                    </div>
+                    <div class="form-group full-widht">
+                        <button type="submit">Enviar</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="white-bg footer">
+        <p>Feito com carinho por um palmeirense apaixonado!!!</p>
+    </footer>
+    <a class="back-to-top" href="#">▲</a>
+</body>
+</html>
